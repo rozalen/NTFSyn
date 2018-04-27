@@ -16,8 +16,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var eventMonitor: EventMonitor?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        showVolumes()
-
         if let button = statusItem.button {
             button.title = "SNTFS!"
             button.action = #selector(AppDelegate.togglePopover(_:))
@@ -58,29 +56,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popover.performClose(sender)
         eventMonitor?.stop()
     }
-    
-    func showVolumes(){
-        let sourcePath = URL(fileURLWithPath: "/Volumes", isDirectory: true)
-        let fileManager = FileManager.default
-        
-        do {
-            
-            let files = try fileManager.contentsOfDirectory(atPath: sourcePath.path)
-            
-            print("\nMostrando el contenido de la carpeta: \(sourcePath.path)\n")
-            
-            for var content in files {
-                
-                print(content)
-                
-            } // for
-            
-        } catch let error as NSError {
-            
-            print("Ooops! Ha ocurrido un error: \(error)")
-            
-        }
-    }
+  
 
 }
 
