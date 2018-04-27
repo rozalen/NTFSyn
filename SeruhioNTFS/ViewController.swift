@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    
+    @IBOutlet weak var devicesTable: NSTableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +26,8 @@ class ViewController: NSViewController {
     @IBAction func closeButtonAction(_ sender: NSButton) {
         NSApp.terminate(self)
     }
+    
+    
 
 }
 
