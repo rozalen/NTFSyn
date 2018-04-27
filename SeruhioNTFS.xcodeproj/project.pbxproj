@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2C4489209324FB006EB05C /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C4488209324FB006EB05C /* EventMonitor.swift */; };
+		FBABC5E52091B9310043CA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC5E42091B9310043CA47 /* AppDelegate.swift */; };
+		FBABC5E72091B9310043CA47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC5E62091B9310043CA47 /* ViewController.swift */; };
+		FBABC5E92091B9310043CA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBABC5E82091B9310043CA47 /* Assets.xcassets */; };
+		FBABC5EC2091B9310043CA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBABC5EA2091B9310043CA47 /* Main.storyboard */; };
+		FBABC5F82091B9310043CA47 /* SeruhioNTFSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC5F72091B9310043CA47 /* SeruhioNTFSTests.swift */; };
+		FBABC6032091B9320043CA47 /* SeruhioNTFSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC6022091B9320043CA47 /* SeruhioNTFSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBABC5F42091B9310043CA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBABC5D92091B9310043CA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBABC5E02091B9310043CA47;
+			remoteInfo = SeruhioNTFS;
+		};
+		FBABC5FF2091B9320043CA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBABC5D92091B9310043CA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBABC5E02091B9310043CA47;
+			remoteInfo = SeruhioNTFS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2C4488209324FB006EB05C /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		FBABC5E12091B9310043CA47 /* SeruhioNTFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeruhioNTFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBABC5E42091B9310043CA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBABC5E62091B9310043CA47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBABC5E82091B9310043CA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBABC5EB2091B9310043CA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBABC5ED2091B9310043CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBABC5EE2091B9310043CA47 /* SeruhioNTFS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeruhioNTFS.entitlements; sourceTree = "<group>"; };
+		FBABC5F32091B9310043CA47 /* SeruhioNTFSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeruhioNTFSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBABC5F72091B9310043CA47 /* SeruhioNTFSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeruhioNTFSTests.swift; sourceTree = "<group>"; };
+		FBABC5F92091B9310043CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBABC5FE2091B9320043CA47 /* SeruhioNTFSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeruhioNTFSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBABC6022091B9320043CA47 /* SeruhioNTFSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeruhioNTFSUITests.swift; sourceTree = "<group>"; };
+		FBABC6042091B9320043CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBABC5DE2091B9310043CA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBABC5F02091B9310043CA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBABC5FB2091B9320043CA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBABC5D82091B9310043CA47 = {
+			isa = PBXGroup;
+			children = (
+				FBABC5E32091B9310043CA47 /* SeruhioNTFS */,
+				FBABC5F62091B9310043CA47 /* SeruhioNTFSTests */,
+				FBABC6012091B9320043CA47 /* SeruhioNTFSUITests */,
+				FBABC5E22091B9310043CA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBABC5E22091B9310043CA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC5E12091B9310043CA47 /* SeruhioNTFS.app */,
+				FBABC5F32091B9310043CA47 /* SeruhioNTFSTests.xctest */,
+				FBABC5FE2091B9320043CA47 /* SeruhioNTFSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBABC5E32091B9310043CA47 /* SeruhioNTFS */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC5E42091B9310043CA47 /* AppDelegate.swift */,
+				FB2C4488209324FB006EB05C /* EventMonitor.swift */,
+				FBABC5E62091B9310043CA47 /* ViewController.swift */,
+				FBABC5E82091B9310043CA47 /* Assets.xcassets */,
+				FBABC5EA2091B9310043CA47 /* Main.storyboard */,
+				FBABC5ED2091B9310043CA47 /* Info.plist */,
+				FBABC5EE2091B9310043CA47 /* SeruhioNTFS.entitlements */,
+			);
+			path = SeruhioNTFS;
+			sourceTree = "<group>";
+		};
+		FBABC5F62091B9310043CA47 /* SeruhioNTFSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC5F72091B9310043CA47 /* SeruhioNTFSTests.swift */,
+				FBABC5F92091B9310043CA47 /* Info.plist */,
+			);
+			path = SeruhioNTFSTests;
+			sourceTree = "<group>";
+		};
+		FBABC6012091B9320043CA47 /* SeruhioNTFSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC6022091B9320043CA47 /* SeruhioNTFSUITests.swift */,
+				FBABC6042091B9320043CA47 /* Info.plist */,
+			);
+			path = SeruhioNTFSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBABC5E02091B9310043CA47 /* SeruhioNTFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBABC6072091B9320043CA47 /* Build configuration list for PBXNativeTarget "SeruhioNTFS" */;
+			buildPhases = (
+				FBABC5DD2091B9310043CA47 /* Sources */,
+				FBABC5DE2091B9310043CA47 /* Frameworks */,
+				FBABC5DF2091B9310043CA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeruhioNTFS;
+			productName = SeruhioNTFS;
+			productReference = FBABC5E12091B9310043CA47 /* SeruhioNTFS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBABC5F22091B9310043CA47 /* SeruhioNTFSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBABC60A2091B9320043CA47 /* Build configuration list for PBXNativeTarget "SeruhioNTFSTests" */;
+			buildPhases = (
+				FBABC5EF2091B9310043CA47 /* Sources */,
+				FBABC5F02091B9310043CA47 /* Frameworks */,
+				FBABC5F12091B9310043CA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBABC5F52091B9310043CA47 /* PBXTargetDependency */,
+			);
+			name = SeruhioNTFSTests;
+			productName = SeruhioNTFSTests;
+			productReference = FBABC5F32091B9310043CA47 /* SeruhioNTFSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBABC5FD2091B9320043CA47 /* SeruhioNTFSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBABC60D2091B9320043CA47 /* Build configuration list for PBXNativeTarget "SeruhioNTFSUITests" */;
+			buildPhases = (
+				FBABC5FA2091B9320043CA47 /* Sources */,
+				FBABC5FB2091B9320043CA47 /* Frameworks */,
+				FBABC5FC2091B9320043CA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBABC6002091B9320043CA47 /* PBXTargetDependency */,
+			);
+			name = SeruhioNTFSUITests;
+			productName = SeruhioNTFSUITests;
+			productReference = FBABC5FE2091B9320043CA47 /* SeruhioNTFSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBABC5D92091B9310043CA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sergio Rozalén Barberán";
+				TargetAttributes = {
+					FBABC5E02091B9310043CA47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FBABC5F22091B9310043CA47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBABC5E02091B9310043CA47;
+					};
+					FBABC5FD2091B9320043CA47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBABC5E02091B9310043CA47;
+					};
+				};
+			};
+			buildConfigurationList = FBABC5DC2091B9310043CA47 /* Build configuration list for PBXProject "SeruhioNTFS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBABC5D82091B9310043CA47;
+			productRefGroup = FBABC5E22091B9310043CA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBABC5E02091B9310043CA47 /* SeruhioNTFS */,
+				FBABC5F22091B9310043CA47 /* SeruhioNTFSTests */,
+				FBABC5FD2091B9320043CA47 /* SeruhioNTFSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBABC5DF2091B9310043CA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBABC5E92091B9310043CA47 /* Assets.xcassets in Resources */,
+				FBABC5EC2091B9310043CA47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBABC5F12091B9310043CA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBABC5FC2091B9320043CA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBABC5DD2091B9310043CA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2C4489209324FB006EB05C /* EventMonitor.swift in Sources */,
+				FBABC5E72091B9310043CA47 /* ViewController.swift in Sources */,
+				FBABC5E52091B9310043CA47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBABC5EF2091B9310043CA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBABC5F82091B9310043CA47 /* SeruhioNTFSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBABC5FA2091B9320043CA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBABC6032091B9320043CA47 /* SeruhioNTFSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBABC5F52091B9310043CA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBABC5E02091B9310043CA47 /* SeruhioNTFS */;
+			targetProxy = FBABC5F42091B9310043CA47 /* PBXContainerItemProxy */;
+		};
+		FBABC6002091B9320043CA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBABC5E02091B9310043CA47 /* SeruhioNTFS */;
+			targetProxy = FBABC5FF2091B9320043CA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBABC5EA2091B9310043CA47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBABC5EB2091B9310043CA47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBABC6052091B9320043CA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBABC6062091B9320043CA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FBABC6082091B9320043CA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SeruhioNTFS/SeruhioNTFS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeruhioNTFS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FBABC6092091B9320043CA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SeruhioNTFS/SeruhioNTFS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeruhioNTFS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		FBABC60B2091B9320043CA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeruhioNTFSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeruhioNTFS.app/Contents/MacOS/SeruhioNTFS";
+			};
+			name = Debug;
+		};
+		FBABC60C2091B9320043CA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeruhioNTFSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeruhioNTFS.app/Contents/MacOS/SeruhioNTFS";
+			};
+			name = Release;
+		};
+		FBABC60E2091B9320043CA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeruhioNTFSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SeruhioNTFS;
+			};
+			name = Debug;
+		};
+		FBABC60F2091B9320043CA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeruhioNTFSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SeruhioNTFS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBABC5DC2091B9310043CA47 /* Build configuration list for PBXProject "SeruhioNTFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBABC6052091B9320043CA47 /* Debug */,
+				FBABC6062091B9320043CA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBABC6072091B9320043CA47 /* Build configuration list for PBXNativeTarget "SeruhioNTFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBABC6082091B9320043CA47 /* Debug */,
+				FBABC6092091B9320043CA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBABC60A2091B9320043CA47 /* Build configuration list for PBXNativeTarget "SeruhioNTFSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBABC60B2091B9320043CA47 /* Debug */,
+				FBABC60C2091B9320043CA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBABC60D2091B9320043CA47 /* Build configuration list for PBXNativeTarget "SeruhioNTFSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBABC60E2091B9320043CA47 /* Debug */,
+				FBABC60F2091B9320043CA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBABC5D92091B9310043CA47 /* Project object */;
+}
