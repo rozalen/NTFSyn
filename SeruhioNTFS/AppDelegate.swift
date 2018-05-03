@@ -15,6 +15,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let popover = NSPopover()
     var eventMonitor: EventMonitor?
     
+ 
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         if let button = statusItem.button {
             button.title = "SNTFS!"
@@ -26,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popover.contentViewController = mainViewController
         
         
-        eventMonitor = EventMonitor(mask: [.leftMouseDown,.leftMouseDown]) { [unowned self] event in
+        eventMonitor = EventMonitor(mask: [.leftMouseDown,.rightMouseDown]) { [unowned self] event in
             if self.popover.isShown {
                 self.closePopover(event)
             }
@@ -38,6 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @objc func togglePopover(_ sender: AnyObject?) {
+       
         if popover.isShown {
             closePopover(sender)
         } else {

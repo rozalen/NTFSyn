@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		FB2C4488209324FB006EB05C /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		FB9366EF209AE9F90091B4AF /* addDiskScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = addDiskScript.sh; sourceTree = "<group>"; };
 		FBABC5E12091B9310043CA47 /* SeruhioNTFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeruhioNTFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBABC5E42091B9310043CA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBABC5E62091B9310043CA47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 				FBABC5EA2091B9310043CA47 /* Main.storyboard */,
 				FBABC5ED2091B9310043CA47 /* Info.plist */,
 				FBABC5EE2091B9310043CA47 /* SeruhioNTFS.entitlements */,
+				FB9366EF209AE9F90091B4AF /* addDiskScript.sh */,
 			);
 			path = SeruhioNTFS;
 			sourceTree = "<group>";
@@ -420,12 +422,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SeruhioNTFS/SeruhioNTFS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 32KP39NCN5;
 				INFOPLIST_FILE = SeruhioNTFS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -435,12 +440,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SeruhioNTFS/SeruhioNTFS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 32KP39NCN5;
 				INFOPLIST_FILE = SeruhioNTFS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = srozalen.SeruhioNTFS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

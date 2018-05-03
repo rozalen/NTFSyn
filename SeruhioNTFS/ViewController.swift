@@ -12,6 +12,15 @@ class ViewController: NSViewController , NSTableViewDataSource,NSTableViewDelega
 
     @IBAction func syncButton(_ sender: NSButton) {
        print("Boton presionado")
+        
+        let task = Process()
+        let fileManager = FileManager.default
+        let currentPath = fileManager.currentDirectoryPath
+        task.launchPath = "/usr/bin/osascript"
+        print(currentPath)
+        task.arguments = [currentPath + "/addDiskScript.sh"]
+        
+        task.launch()
     }
     
     @IBOutlet weak var devicesTable: NSTableView!
